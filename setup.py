@@ -54,7 +54,7 @@ setup(
     package_dir={'chatterbot': 'chatterbot'},
     include_package_data=True,
     install_requires=REQUIREMENTS,
-    python_requires='>=3.4, <4',
+    python_requires='>=3.8, <4',
     license='BSD',
     zip_safe=True,
     platforms=['any'],
