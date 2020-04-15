@@ -17,7 +17,7 @@ if sys.version_info[0] < 3:
 
 # Dynamically retrieve the version information from the chatterbot module
 CHATTERBOT = __import__('chatterbot')
-VERSION = 1.0.4
+VERSION = "1.0.4"
 AUTHOR = CHATTERBOT.__author__
 AUTHOR_EMAIL = CHATTERBOT.__email__
 URL = CHATTERBOT.__url__
