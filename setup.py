@@ -53,7 +53,15 @@ setup(
     ],
     package_dir={'chatterbot': 'chatterbot'},
     include_package_data=True,
-    install_requires=REQUIREMENTS,
+    install_requires=[
+        "chatterbot-corpus>=1.2,<1.3",
+        "mathparse>=0.1,<0.2",
+        "nltk>=3.2,<4.0",
+        "pymongo>=3.3,<4.0",
+        "python-dateutil>=2.7,<2.8",
+        "sqlalchemy>=1.2,<1.3",
+        "pint>=0.8.1"
+    ],
     python_requires='>=3.4, <4',
     license='BSD',
     zip_safe=True,
