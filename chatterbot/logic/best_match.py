@@ -33,6 +33,7 @@ class BestMatch(LogicAdapter):
         # Little modification to not stop even if threshold is respected
         current_similarity = 0
         for result in search_results:
+            print("coucou" + => result)
             # update
             if result.confidence >= current_similarity:
                 closest_match = result
